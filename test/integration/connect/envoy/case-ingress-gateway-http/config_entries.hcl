@@ -35,7 +35,7 @@ config_entries {
         {
           match {
             http {
-              path_prefix = "/s1"
+              path_prefix = "/s1/"
             }
           }
 
@@ -47,7 +47,7 @@ config_entries {
         {
           match {
             http {
-              path_prefix = "/s2"
+              path_prefix = "/s2/"
             }
           }
 
